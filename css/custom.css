@@ -1,0 +1,44 @@
+/* your styles go here */
+
+/* 
+Tema por PCTEILOR
+*/
+
+/* -------------------
+    PADDINGS
+-----------------*/
+.no-pd-horizontal{padding-right: 0; padding-left: 0;}
+.no-pd-vertical{padding-top: 0; padding-bottom: 0;}
+
+.geral-pd-sm {padding: 10px;}
+.geral-pd-md {padding: 30px;}
+.geral-pd-lg {padding: 60px;}
+
+.upper-pd-sm {padding-top: 10px;}
+.upper-pd-md {padding-top: 30px;}
+.upper-pd-lg {padding-top: 60px;}
+
+.lower-pd-sm {padding-bottom: 10px;}
+.lower-pd-md {padding-bottom: 30px;}
+.lower-pd-lg {padding-bottom: 60px;}
+
+.left-pd-sm {padding-left: 10px;}
+.left-pd-md {padding-left: 30px;}
+.left-pd-lg {padding-left: 60px;}
+
+.right-pd-sm {padding-right: 10px;}
+.right-pd-md {padding-right: 30px;}
+.right-pd-lg {padding-right: 60px;}
+
+.vertical-pd-sm {padding: 10px 0px;}
+.vertical-pd-md {padding: 30px 0px;}
+.vertical-pd-lg {padding: 60px 0px;}
+
+.horizontal-pd-sm {padding: 0px 10px;}
+.horizontal-pd-md {padding: 0px 30px;}
+.horizontal-pd-lg {padding: 0px 60px;}
+
+.nopadding {padding: 0 !important;  margin: 0 !important;}
+
+.btn-back {background-color: #ef5285; color: #fff; padding: 5px 30px 5px 30px;  }
+.btn-back:hover {background-color: #b4365f; color: #fff; padding: 5px 30px 5px 30px;  }
