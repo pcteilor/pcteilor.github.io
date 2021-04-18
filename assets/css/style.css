@@ -1,0 +1,70 @@
+/*
+TEMA PROHMANN ADVOGADOS
+Autor: Paulo Teilor
+*/
+/*
+---------------------------------------
+VAR's
+---------------------------------------
+*/
+:root {
+    --base-color: #0b1b3b;
+    --aux-color: #cca652;
+}
+/*
+---------------------------------------
+IMPORTS
+---------------------------------------
+*/
+/* Fonte Abril Fatface*/
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+
+/*
+---------------------------------------
+GERAL
+---------------------------------------
+*/
+
+body {padding: 0 !important; font-family: 'Open Sans', Arial, sans-serif; color: var(--base-color)}
+.bg-body {background: url(/assets/img/bg.png) no-repeat;}
+.bg-banner {background-color: var(--base-color); background: url(/assets/img/Banner.png) no-repeat top ;}
+
+.hr-1{text-align: left; margin-left: 0px; width: 30%; border-width:3px; border-color: var(--aux-color);}
+.hr-2{text-align: left; margin-left: 0px; width: 80%; border-width:3px; border-color: var(--aux-color);}
+
+/*
+---------------------------------------
+RESETS
+---------------------------------------
+*/
+h1, h2, h3 {font-family: 'Abril Fatface', cursive; letter-spacing: 0.025em;}
+
+
+.base-color {color: var(--base-color);}
+.base-color a {text-decoration: none; color: var(--base-color); transition: 0.4s; }
+.base-color a:hover {animation: link-base-color; color:#235ccc; transform: scale(5); transition: 0.4s;}
+
+.aux-color {color: var(--aux-color);}
+.aux-color a {text-decoration: none; color: var(--aux-color); transition: 0.4s; }
+.aux-color a:hover {animation: link-base-color; color:#fde3a9; transform: scale(5); transition: 0.4s;}
+
+.bg-banner p, h3, h2, h1 {color: var(--aux-color);}
+
+.icon-size {font-size: 1.3rem;}
+
+/*
+---------------------------------------
+ANIMATIONS
+---------------------------------------
+*/
+
+@keyframes link-hovers {
+    0% {transform: scale(1);}
+    100% {transform: scale(2);}
+}
+
+@keyframes link-base-color {
+    0% {color: #0b1b3b;}
+    100% {color: #12306b;}
+}
